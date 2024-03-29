@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #e7e7e7;
+  border-radius: 1rem;
+}
+
+.contents {
+  background: #e9e9e9;
+  border-radius: 2rem;
+  width: calc(100hw - .5rem);
+  height: 100hw;
+  padding: .5rem;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: 'text text' 'name name' 'speed speed';
+  gap: 2rem;
+
+}
+
+.text {
+  grid-area: text;
+}
+
+.name01 {
+  grid-area: name;
+}
+
+.name02 {
+  grid-area: name;
+}
+
+.speed01 {
+  grid-area: speed;
+}
+
+.speed02 {
+  grid-area: speed;
+}
